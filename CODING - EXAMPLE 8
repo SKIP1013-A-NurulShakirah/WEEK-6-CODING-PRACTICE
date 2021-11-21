@@ -1,0 +1,41 @@
+/*Question : The program will be assigned based on the value of a code. 
+  Display the name of the program that will be assigned based on the following table.
+  */
+
+//------------------------------------------------------------------------
+//            Code                            Program
+//------------------------------------------------------------------------
+//             1                         Degree in Multimedia
+//             2                         Degree in Networking
+//             3                         Degree in Robotics
+//------------------------------------------------------------------------
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int code;
+		
+		System.out.print("Enter code : ");
+		code = sc.nextInt();
+		
+		if (code == 1)
+			System.out.print("\nDegree in Multimedia");
+		
+		else if (code == 2)
+			System.out.print("\nDegree in Networking");
+		
+		else
+			System.out.print("\nDegree in Robotics");
+
+	}
+
+}
