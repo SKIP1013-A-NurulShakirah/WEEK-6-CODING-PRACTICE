@@ -1,0 +1,27 @@
+//Question : If a student's mark is 40 and above, print the message 'PASS'. Otherwise, print the message 'FAIL'.
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double mark;
+		
+		System.out.print("Enter mark : ");
+		mark = sc.nextDouble();
+		
+		if (mark >= 40)
+			System.out.print("\'PASS\'");
+		
+		else
+			System.out.print("\'FAIL\'");
+
+	}
+
+}
