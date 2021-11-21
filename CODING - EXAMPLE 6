@@ -1,0 +1,30 @@
+//Question : Create a program that print "Yes" if x is equal to y, otherwise print "No".
+
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x, y;
+		
+		System.out.print("Enter value of x : ");
+		x = sc.nextInt();
+		
+		System.out.print("Enter value of y : ");
+		y = sc.nextInt();
+		
+		if (x == y)
+			System.out.print("\nYes");
+		
+		else
+			System.out.print("\nNo");
+
+	}
+}
