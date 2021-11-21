@@ -1,0 +1,30 @@
+//Question : Determine the status of a number whether it is positive, negative, or zero.
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num;
+		
+		System.out.print("Enter a number : ");
+		num = sc.nextInt();
+		
+		if (num > 0)
+			System.out.print("\nPositive number.");
+		
+		else if (num < 0)
+			System.out.print("\nNegative number.");
+		
+		else
+			System.out.print("\nZero.");
+
+	}
+
+}
