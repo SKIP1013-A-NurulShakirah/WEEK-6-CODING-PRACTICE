@@ -1,0 +1,27 @@
+//Question : Find if the number is odd or even. If the number is odd then display message "Odd Number.". Otherwise, display message "Even Number.". 
+
+package self_programming;
+
+import java.util.Scanner;
+
+public class Example10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num;
+		
+		System.out.print("Enter a number : ");
+		num = sc.nextInt();
+		
+		if (num % 2 == 0)
+			System.out.print("\nEven Number.");
+		
+		else
+			System.out.print("\nOdd Number.");
+
+	}
+
+}
